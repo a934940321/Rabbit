@@ -15,7 +15,7 @@ public class demo {
         //定义一个笼子
         List<Rabbit> rabbits = new ArrayList<>();
         //将兔子加入笼子
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 5; i++) {
             if (i == 1) {//第一个月放一只
                 rabbits.add(new Rabbit());
             }else {
